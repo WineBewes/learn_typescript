@@ -1,6 +1,6 @@
 describe('arrow function', () => {
 
-  test('does not create new scope of "this"', () => {
+  test('ignores scope of "this"', () => {
 
     
     const receptEen = {
