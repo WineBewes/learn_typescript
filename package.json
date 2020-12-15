@@ -1,0 +1,26 @@
+{
+  "name": "learn_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest -o",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WineBewes/learn_typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WineBewes/learn_typescript/issues"
+  },
+  "homepage": "https://github.com/WineBewes/learn_typescript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.19",
+    "jest": "^26.6.3"
+  }
+}
