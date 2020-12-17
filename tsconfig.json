@@ -1,11 +1,15 @@
 {
-    "compilerOptions": {
-        "module": "es6",
-        "target": "es5",
-        "noImplicitAny": false,
-        "sourceMap": false,
-        "outDir": "dist",
-        "rootDir": "src",
-        "moduleResolution": "node"
-    }
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "mapRoot": "/mappings/",
+    "typeRoots": ["@types"]
+  },
+  "exclude": ["src/**/*.spec.ts", "node_modules"]
 }

@@ -5,8 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest -o",
+    "test-all": "jest",
+    "tsc": "tsc",
     "build": "tsc",
-    "start": "npm run build && node dist/index.js"
+    "start": "rimraf dist && npm run build && node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.19",
+    "@types/node": "^14.14.14",
     "jest": "^26.6.3"
   }
 }
